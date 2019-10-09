@@ -1,0 +1,21 @@
+{
+    "name": "tongl/tlContract",
+    "description": "try make a package",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "tongl",
+            "email": "tongliao1993219@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "tlContract\\": "src/"
+        }
+    }
+}
